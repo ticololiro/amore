@@ -17,7 +17,7 @@ data_namoro = st.date_input("📅 Data do início do namoro:")
 local_beijo = st.text_input("📍 Local do primeiro beijo:")
 
 if st.button("💌 Validar informações"):
-    nome_correto = "Davi Zellman gockino e Silva"
+    nome_correto = "Davi Zelman gockino e Silva"
     data_encontro_correta = datetime(2025, 2, 28).date()
     data_namoro_correta = datetime(2025, 6, 1).date()
     local_beijo_correto = "Parque Trianon"
